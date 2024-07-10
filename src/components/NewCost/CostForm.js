@@ -95,8 +95,8 @@ export default function CostForm(props) {
             </div>
 
             <div className="new-cost__actions">
-                <button type="submit"> Добавить расход</button>
-                <button > Отмена</button>
+                <button type="submit" > Добавить расход</button>
+                <button type='button' onClick={props.onCancel}> Отмена</button>
             </div>
         </div>
     </form>;
